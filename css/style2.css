@@ -1,0 +1,40 @@
+/* 
+# - for id
+. - for class
+*/
+
+#heading-1
+{
+    color:green;
+}
+
+#welcome
+{
+    background-color: #91b4d6;
+}
+
+#about
+{
+ background-color: mediumseagreen;
+}
+#welcome,#about  /* Multiple selector*/
+{
+    border: 5px solid rgb(0, 0, 0);
+    padding:5px;
+    margin-bottom:10px;
+}
+
+#welcome p /*Nested selector- targets spesific paragraph*/
+{
+    font-size:20px;
+}
+
+.paragraph
+{
+    color:rgb(38, 14, 172);
+}
+
+body
+{
+    background-color: moccasin;
+}
