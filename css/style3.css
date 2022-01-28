@@ -1,0 +1,16 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    line-height: 1.8em; /* em - font-size of parent element*/
+}
+
+#welcome p span
+{
+    font-weight: bold;
+}
+
+#about p span
+{
+    font-style:oblique;
+}
