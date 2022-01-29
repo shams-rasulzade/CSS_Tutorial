@@ -1,0 +1,29 @@
+/* 
+Here some reference sites for colors
+-color-hex.com
+-htmlcolorcodes.com
+*/
+
+
+/* Name type*/
+h1
+{
+    color:darkslateblue; 
+}
+
+
+/* RGB type*/
+h2
+{
+    color: rgb(150,50,97); 
+}
+
+
+/* Hexadecimal type
+this can be written with 6 characters(or 3 when l characters are the same)
+characters may be numbers(0-9) and letters(a-f)
+*/
+h3
+{
+    color:#abcdef; 
+}
