@@ -1,0 +1,49 @@
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a
+{
+    color: black;
+    text-decoration: none; /* it removes underline from link */
+}
+
+
+a:hover     /* the code block below called suito-selector. When you put your mause on link this code block will run */
+{
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+a:visited  /* this code runs when you click link. It doesn't returns to its normal color even if you refresh*/
+{
+    color:brown;
+}
+
+a:active /* when you click link this color will appear for short time */
+{
+color: violet;
+}
+
+
+/* Button */
+
+
+.btn
+{
+    background: rgb(109, 173, 202);
+    color:white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; /* It's for the mouse cursor to become a pointer */
+}
+
+button:hover
+{
+    background: rgb(84, 144, 172);
+    font-size: 15px;
+}
