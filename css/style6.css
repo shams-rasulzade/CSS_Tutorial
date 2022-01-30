@@ -1,0 +1,41 @@
+.box
+{
+    background: cadetblue;
+    border: 2px blue solid;
+    width: 500px;
+    padding: 20px; /* padding on all sides */
+
+
+    /* padding for per side (it counts for margin too just change padding word to margin)
+    1)
+    padding-top: 10px;    
+    padding-right: 20px;     
+    padding-bottom: 10px;  
+    padding-left: 20px;    
+    */
+
+    /*  2) top,right,bottom,left 
+    padding: 10px 20px 10px 20px;
+    */
+
+    /* 3) we can use this when our top/bottom and right/left values are the same */
+    padding:10px 20px; 
+    
+
+    margin: 20px; /* margin on all sides */
+}
+
+.box h3
+{
+    padding-bottom: 10px;
+}
+
+/* CSS Reset */
+/* it will reset default styling */
+
+*  /* This sign selects everything, so the things inside brackets will be applied for everything.*/
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /*by this code padding won't be added to width */
+}
