@@ -1,0 +1,49 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.4em;
+}
+.container
+{
+    /* width: 960px; */
+     max-width: 960px; 
+    /*It is good way of use for repsonsive design.When you minimize tab then there will be shown a scrool bar. This code prevents it */ 
+
+    margin: auto; /* it moves div to the middle */
+    /* margin: 30px auto; it moves div 30px from bottom/top and auto for left and right */
+}
+
+.box
+{
+    background: #7fb0c7;
+    border: 1px solid #2a78a5;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.box p
+{
+    text-align: center; /* it will place the text */
+}
+
+.clr /* it is for float */
+{
+    clear:both;
+}
+
+#box-2
+{
+    float: left;  /* it 'floats' the div*/
+    width: 60%;   /* represents the amount of 'floating' */
+}
+
+#box-3
+{
+    float: right;
+    width: 30%;
+}
