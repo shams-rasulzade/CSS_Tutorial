@@ -1,0 +1,69 @@
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Navigation Bar */
+
+.navbar
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #4c6ca0;
+    border-radius: 5px;
+    overflow: auto; /* when you float navbar it will collapse the bacground so write this code line for prevent */
+}
+
+.navbar li
+{
+    float: left;
+}
+
+.navbar li a
+{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.navbar li a:hover 
+{
+    background-color: #446190;
+    color: #f4f4f4
+}
+
+/* Side Menu */
+
+.side-menu
+{
+    list-style:  none; /* use this for get rid of the list bullets */
+    border: 1px #ddd solid;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+}
+
+.side-menu li
+{
+    font-size: 18px;
+    line-height: 2.4em;
+    border-bottom: dotted 1px #ddd;
+}
+
+.side-menu li:last-child /* it removes last border(line) from last list item */
+{
+    border:none;
+}
+
+.side-menu li a
+{
+    color: #333;
+    text-decoration:none;
+}
+
+.side-menu li a:hover 
+{
+    color: coral;
+}
