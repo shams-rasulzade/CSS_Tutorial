@@ -1,0 +1,53 @@
+body
+{
+    background: url('/img/image_4.jpg');
+    background-size: cover;
+}
+
+.sign-up
+{
+    position: relative;
+    margin:auto;
+    border: 3px solid darkslateblue;
+    width: 350px;
+    height: 550px;
+    background-color: white;
+}
+
+.sign-up-heading
+{
+    position: absolute;
+    height: 120px;
+    top: 5px;
+    left: 15px;
+    right: 15px;
+    color: black;
+}
+
+.sign-up-heading h2
+{
+    height: 15px;
+    padding-left: 110px;
+    font-size: 25px;
+}
+
+.sign-up-heading p
+{
+    padding-left: 50px;
+}
+
+.footage
+{
+    margin: auto;
+    padding-left: 550px;
+}
+
+.footage p
+{
+    color: white;
+}
+
+.footage p a
+{
+    color: violet;
+}
