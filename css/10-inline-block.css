@@ -1,0 +1,28 @@
+
+li
+{
+  display: inline; /* we can change display to block, inline-block */
+
+}
+
+li a 
+{
+    padding-right: 20px;
+}
+
+img 
+{
+    display:block;
+    margin: auto;
+}
+
+.box
+{
+    display: inline-block;
+    width: 32%;
+    box-sizing: border-box;
+    background: wheat;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
