@@ -24,13 +24,13 @@
 
     /* we can write the code below instead of above*/
 
-    background: url('/img/image2.png') no-repeat center center/cover;
+    background: url('/img/image_2.jpeg') no-repeat center center/cover;
     height: 300px;
     width: 600px;
 }
 
 #box-4
 {
-    background: url('/img/image2.png') no-repeat top center;
+    background: url('/img/image_2.jpeg') no-repeat top center;
     background-attachment: fixed;
 }
