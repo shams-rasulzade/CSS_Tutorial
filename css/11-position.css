@@ -1,0 +1,67 @@
+/*  Positioning  (not mobile-friendly)
+Static- not affected by tblr(top,bottom,left,right) properties 
+Relative-we can use tblr, normal position will be changed
+Absolute- ? (use when you have div inside of div, make inside div absolute and parent div relative)
+Fixed-positioned to the viewport ???
+Sticky-positioned on scrool position
+*/
+
+*
+{
+    height: 4000px;
+}
+
+
+.box
+{
+    width: 100px;
+    height: 100px;
+}
+
+
+.container
+{
+    position: relative; /* it's a parent element so it has to be relative */
+    width: 500px;
+    height: 500px;
+    background:khaki;
+}
+
+#box-1
+{
+    position: relative;
+    top:50px;
+    left: 50px;
+    background: red;
+    z-index: 1;        /* it's like layers */
+}
+
+#box-2
+{
+    position: absolute; /* because of .container */
+    top: 100px;
+    left: 100px;
+    background: orange;
+}
+
+#box-3
+{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+
+    background: green;
+}
+
+#box-4
+{
+    position: fixed; /* ? */
+    background: blue;
+}
+
+#box-5
+{
+    position: sticky;
+    top:0; /* define where it should be stick */
+    background: darkviolet;
+}
