@@ -1,0 +1,14 @@
+.hello /* no matter it is up or down this targeting will override the targeting of attribute element */
+{
+    color: brown;
+    margin-top: -30px; /* negative values of margin, try to avoid this */
+}
+
+h1
+{
+   /* display: none;  it hides this element */
+   /* visibility: hidden; it hides but it still takes up space */
+   color: aqua !important; /* by this !important flag you will be able to override other styling */ 
+
+}
+
