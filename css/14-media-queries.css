@@ -1,0 +1,98 @@
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: gray;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+h1
+{
+    display: none;
+}
+
+
+/* Smartphones */
+
+@media /* only screen and ? */ (max-width: 500px)
+{
+    body
+    {
+        background: red;
+    }
+
+    #smartphone h1 
+    {
+        display: block;
+    }
+
+}
+
+
+/* Tablet */
+
+@media(min-width:501px) and (max-width: 768px)
+{
+    body
+    {
+        background: blue;
+    }
+
+    #tablet h1 
+    {
+        display: block;
+    }
+
+}
+
+/* Normal */
+
+@media(min-width:769px) and (max-width: 1200px)
+{
+    body
+    {
+        background: green;
+    }
+
+    #normal h1 
+    {
+        display: block;
+    }
+
+}
+
+/* Widescreen */
+
+@media(min-width:1201px)
+{
+    body
+    {
+        background: black;
+    }
+
+    #widescreen h1 
+    {
+        display: block;
+    }
+
+}
+
+/* Landscape */
+
+@media(max-height:500px)
+{
+    body
+    {
+        background: orange;
+    }
+
+    #landscape h1 
+    {
+        display: block;
+    }
+
+}
+/* We can write the in seperate stylesheets. Create css file and link it to html file. Inside the link  write 'media="screen and (max/min-width/height : 800)"'. This means this style sheet will be load when our max/min width/heigh condition is paid. Otherwise it's not gonna load.
+Write that link after main stylesheet link. */
