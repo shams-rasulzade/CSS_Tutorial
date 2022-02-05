@@ -1,0 +1,33 @@
+#box-1
+{
+    font-size: 20px;
+}
+
+#box-1 p
+{
+    font-size: 1.5em;
+}
+
+#box-1 ul
+{
+    font-size: 1.2em;
+}
+
+
+/*  for easy use for rem
+html
+{
+    font-size: 10px(or 62.5%);
+} 
+*/
+
+#box-2 h3
+{
+    font-size: 2rem;
+}
+
+#box-2 p
+{
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+}
