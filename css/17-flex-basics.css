@@ -1,0 +1,27 @@
+#container
+{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse;  from right to left */
+    /* flex-direction: column;  makes them horizontal */
+    flex-wrap: wrap; /* if we have boxes more than 12 it will go outside of the screen so by this code we will wrap it */
+
+    /* flex-flow: row wrap; short code for two line above */
+}
+
+
+
+.item
+{
+    background: #f4f4f4;
+    border: #ccc solid 1px;
+    padding: 1rem;
+    text-align: center;
+    flex: 1; /* makes them equally size, we don't need to specify width and so on */
+    margin: 0.75rem;
+}
+
+.item:first-child /* chooses the first element(box 1) */
+{
+    flex: 2; /* this one gets more area */
+}
