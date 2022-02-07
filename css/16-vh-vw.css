@@ -1,0 +1,53 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header
+{
+    background: #333 url('https://source.unsplash.com/weekly') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 15rem;
+}
+
+header h1
+{
+    font-size: 3rem;
+}
+
+header p
+{
+    margin: 1rem 0;
+}
+
+.btn
+{
+    display: inline-block;
+    text-decoration: none;
+    background: #f4f4f4;
+    color: #333;
+    padding: 0.75rem 2rem;
+}
+
+section
+{
+    padding: 2rem;
+}
+
+@media(max-height: 450px)
+{
+    header
+    {
+        padding: 5rem;
+    }
+}
