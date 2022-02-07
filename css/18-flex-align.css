@@ -1,0 +1,41 @@
+#container
+{
+    background: #555;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* align items horizontal */
+    height: 600px;
+    /* align-items: stretch; dafult */
+    align-items: baseline; /* align items vertical (must define height) */
+
+    align-content:space-between; /* align items vertical when there's extra space */
+}
+
+.item-1
+{
+    order: 3;
+}
+.item-2 /* Align single item vertical */
+{
+    align-self: center;      /* not working !!!! */
+    order: 2;
+}
+
+.item-3
+{
+    order: 1;
+}
+
+
+.item
+{
+    background: #f4f4f4;
+    border: #ccc solid 1px;
+    padding: 1rem;
+    text-align: center;
+    margin: 0.5rem;
+    flex-basis: 200px; /* same as "width" ? */
+}
+
+
+
