@@ -3,7 +3,7 @@ body
     background: #333;
 }
 
-.box
+.box-1
 {
     background: white;
     width: 200px;
@@ -50,4 +50,54 @@ body
         top: 300px;
     }
 
+}
+
+.box-2
+{
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+
+    animation: animate2 6s forwards ease-out;
+}
+
+@keyframes animate2
+{
+    25% /* it's the persentage of the time(duration) */
+    {
+        top: 0;
+        left: 300px;
+        background: red;
+        border-radius: 50% 0 0 0;
+    }
+    
+    50%
+    {
+        top: 300px;
+        left: 300px;
+        background: orangered;
+        border-radius: 50% 50% 0 0;
+
+    }
+
+    75%
+    {
+        top: 300px;
+        left: 0;
+        background: yellowgreen;
+        border-radius: 50% 50% 50% 0;
+
+    }
+
+    100%
+    {
+        top: 0;
+        left: 0;
+        background: white;
+        border-radius: 50%;
+    }
+    
 }
