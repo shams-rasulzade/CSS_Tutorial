@@ -1,0 +1,38 @@
+body
+{
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box
+{
+    background: white;
+    width: 300px;
+    height: 300px;
+
+    /* transform: rotate(45deg);  25degree */
+
+    /* transform: skew(25deg); lean dioganally */
+
+    /* transform: scale(2); /* it makes bigger in size(here it will double) */
+
+    transition: all 1s ease-out;
+
+
+
+    
+}
+
+.box:hover /* because transition is based on events */
+{
+    /* transform: rotate(45deg); */
+    /* transform: translateY(100px); to move */
+    transform: translate(100px,100px);
+    /* transform: translate3d((100px,100px 100px)); same as above line but it increases performance ? */
+
+
+    
+}
