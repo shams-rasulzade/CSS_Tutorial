@@ -1,0 +1,49 @@
+li
+{
+    padding: 0.25rem;
+    margin: 0.25rem;
+    list-style: none;
+}
+
+
+li:first-child /* It will choose the first child */
+{
+    background: red;
+}
+
+
+li:last-child /* It will choose the last child */
+{
+    background: yellow;
+}
+
+
+li:nth-child(3) /* It will choose the child whatever you write inside the bracket */
+{
+    background: green;
+}
+
+
+li:nth-child(7n+0) /* it will choose the child which it's number divisible by 7   
+n - counter, 
+0 - offset*/
+{
+    background: orange;
+}
+
+
+li:nth-child(7n+10)
+{
+    background: sandybrown;
+}
+
+
+li:nth-child(odd) /* It will choose list items which their number is odd (you can also write even) */ 
+{
+    background: #ccc;
+}
+
+li:nth-child(even) /* It will choose list items which their number is even */ 
+{
+    background: rgb(105, 192, 204);
+}
