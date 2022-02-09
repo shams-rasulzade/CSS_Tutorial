@@ -14,7 +14,7 @@ body
     height: 100px;
 
 
-    transition-property: all; /* we can write 'all' to apply transition to all 
+    transition-property: background, border-radius,height,width; /* we can write 'all' to apply transition to all 
     background, border-radius*/
 
     transition-duration: 2s;
