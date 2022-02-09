@@ -1,0 +1,72 @@
+body
+{
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box
+{
+    background: white;
+    width: 100px;
+    height: 100px;
+
+
+    transition-property: all; /* we can write 'all' to apply transition to all 
+    background, border-radius*/
+
+    transition-duration: 2s;
+    /* transition-delay: 2s; */
+    transition-timing-function: ease-out;
+
+    /* above code lines in 1 line
+                            duration            delay
+    transition: background     2s     ease-out   2s;
+    */
+}
+
+.box:hover /* because transition is based on events */
+{
+    background: red;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+
+ /* 
+        TRANSITIONAL PROPERTIES
+        -Properties that have an identifiable halfway point
+
+        background-color 
+        background-position 
+        border-color 
+        border-width 
+        border-spacing 
+        bottom 
+        color
+        font-size 
+        font-weight 
+        height left 
+        letter-spacing 
+        line-height 
+        margin 
+        max-height 
+        max-width 
+        min-height 
+        min-width 
+        opacity 
+        outline-color 
+        outline-offset 
+        outline-width 
+        padding right 
+        text-indent 
+        text-shadow 
+        top 
+        vertical-align 
+        visibility 
+        width 
+        word-spacing 
+        z-index */
