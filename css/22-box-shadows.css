@@ -1,0 +1,34 @@
+.container
+{
+    display: flex;
+}
+
+.box
+{
+    padding: 1rem;
+    margin: 1rem;
+    background: coral;
+    color: #fff;
+
+    /*   offset-x | offset-y | color */
+    box-shadow: 10px 10px teal;  
+
+
+    /*  offset-x | offset-y | blur-radius | color */
+    box-shadow: 10px 10px 20px teal;  
+
+
+    box-shadow: -10px 10px 20px teal;  /* you can change direction of shadow */
+
+
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.3);  
+
+
+    /* inset(it's like box is digged in) | offset-x | offset-y | color */
+    box-shadow: inset 10px 10px #ccc;  
+    
+
+    /* Multiple Shadows */
+    box-shadow: 3px 3px 10px teal, -3px -3px 10px olive;
+}
