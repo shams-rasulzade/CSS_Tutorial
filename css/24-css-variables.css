@@ -1,0 +1,69 @@
+/* 
+~ ~ ~ Define Variable ~ ~ ~
+
+You type '--' and then write th name of your variable
+Example: 
+--base-color: white
+
+You can define them inside of tags that you will us them but it's convenient to define them in root scope. Because by this way you cn use them anywhere in the stylesheet.
+ */
+
+ :root
+ {
+     --max-width: 1100px;
+     --primary-color:steelblue;
+     --secondary-color: skyblue;
+     --light-color: #f4f4f4;
+     --base-text-color: white;
+     --box-1-width: 1;
+     --box-2-width: 2;
+
+ }
+
+*
+{
+    margin: 0;
+    padding: 0%;
+}
+
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    background: var(--light-color);
+}
+
+
+header
+{
+    background-color: var(--primary-color);
+    border-bottom: 5px var(--secondary-color) solid;
+    color: var(--base-text-color) ;
+    text-align: center;
+}
+
+.container
+{
+    display: flex;
+    margin: auto;
+    max-width: var(--max-width);
+}
+
+.box
+{
+    background-color: var(--primary-color);
+    border-bottom: 5px var(--secondary-color) solid;
+    color: var(--base-text-color);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.box-1
+{
+    flex: var(--box-1-width);
+}
+
+.box-2
+{
+    flex: var(--box-2-width);
+}
