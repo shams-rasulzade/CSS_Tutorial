@@ -1,0 +1,53 @@
+body
+{
+    background: #333;
+}
+
+.box
+{
+    background: white;
+    width: 200px;
+    height: 200px;
+    position: relative; /* by making this relative we can use top bottom properties */
+
+
+    /* 1. define name of the animation */
+    /* 2. define the duration */
+    /* 3. write keyframe of the name of the animation,inside the scopes write the details of animation */
+
+    animation-name: animate1; 
+    animation-duration: 3s; 
+
+    animation-iteration-count: 1; /* by this code we can replay the animation */
+    animation-fill-mode: forwards; /* by this code after the animation, it will keep its form */
+    /*animation-delay: 2s;  it will delay the start if animation */
+    animation-direction: alternate; /* it will change the direction */
+    animation-timing-function: ease-out; /* it simply change the speed of the animation 
+    ease-in--first slow the fast 
+    ease-out--first fast then slow 
+    and so on... */
+    
+
+    /* we can write the codes above just by 1 code line 
+
+                name  | duration | fill-mode | delay | timing 
+    animation: animate1  5s        forwards    1s      ease-out;
+    */
+    
+}
+
+@keyframes animate1 /* write keyframe of the name of the animation */
+{
+    form  
+    {
+        top: 0;
+    }
+
+    to 
+    {
+        width: 600px;
+        background-color: red;
+        top: 300px;
+    }
+
+}
