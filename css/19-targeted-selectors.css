@@ -1,0 +1,32 @@
+div > p  /* (Direct child) With '>' sign we choose only the direct child(p) of div */
+{
+    background: #ddd;
+}
+
+
+div + p /* (Directly after) With '+' sign it will choose the directly after item(here we looking for p) */
+{
+    background: #333;
+    color: white;
+}
+
+
+a[target] /* (By attribute) it will choose all links that have target */
+{
+    background: #ff0000;
+    color: white;
+}
+
+a[target='_self'] /* (Specific attribute values) It will choose all links that have target is '_self' */
+{
+    background: #00ff00;
+    color: white;
+}
+
+
+input[type='text'],
+input[type='email']
+{
+    width: 100%;
+    margin-bottom: 5px;
+}
