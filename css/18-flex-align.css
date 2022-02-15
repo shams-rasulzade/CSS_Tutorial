@@ -17,8 +17,9 @@
 }
 .item-2 /* Align single item vertical */
 {
-    align-self: center;      /* not working !!!! */
-    order: 2;
+    margin-top: auto;
+    align-self: flex-end;      /* not working !!!! */
+    /* order: 1; */
 }
 
 .item-3
